@@ -122,10 +122,6 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .hero-img img {
-        width: 100px;
-    }
-
     .main {
         flex-direction: column;
         text-align: center;
@@ -142,5 +138,9 @@ body {
 
     .hero-text a {
         padding: 10px 70px;
+    }
+
+    footer {
+        margin-top: 190px;
     }
 }
